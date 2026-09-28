@@ -8,6 +8,7 @@
 
 ### 🎉 New features
 
+- [Android] Add the position watchers to the **next** implementation. Update the `LocationProvider` interface to also support watchers and implement it in both GMS and Android providers. ([#49992](https://github.com/expo/expo/pull/49992) by [@HubertBer](https://github.com/HubertBer))
 - [Android] Add the core functionalities for the **next** version: permission getters and requesters, current position getters, and `enableLocationServices` prompt. Introduce `LocationProvider` interface to allow for multiple implementations: for now `gms` and `android.location`. ([#49988](https://github.com/expo/expo/pull/49988) by [@HubertBer](https://github.com/HubertBer))
 
 ### 🐛 Bug fixes
